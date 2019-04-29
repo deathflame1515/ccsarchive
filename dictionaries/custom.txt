@@ -1,0 +1,39 @@
+ASPNetSpell
+asp
+Asp
+Net
+net
+LiveSpell
+JavaScript
+iFrame
+Textarea
+Textareas
+levenshtein
+Joveth
+SMS
+Tarlac
+Concepcion
+palay
+Gerona
+Anao
+Paniqui
+Capas
+San Jose
+Sta. Ignacia
+Santa Ignacia
+Camiling
+Pura
+San Clemente
+Bamban
+Moncada
+San Manuel
+Mayantoc
+La Paz
+Victoria
+Danica
+Reyes
+Dela Cruz
+Cruz
+Bryle
+Rayandayan
+Kenneth
