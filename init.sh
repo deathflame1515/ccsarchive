@@ -8,7 +8,6 @@ sudo yum install php-mysql php-ftp php -y
 yum groupinstall "Development tools" -y
 sudo yum install git -y
 
-service networking restart
-service httpd restart
-service mysqld restart
-mysql -u root < dblibrary.sql
+systemctl restart network
+systemctl restart httpd
+mysql -u root -p < dblibrary.sql

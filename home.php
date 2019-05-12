@@ -45,8 +45,9 @@ include('./include/header.php');
 										while($row = $result->fetch_assoc()) {
 																	
 										$Total=$row["Total"];								
-							echo $Total;							  
+														  
 								}}
+								echo $Total-1;
 							  ?></h5>
 								</div>
 							</div>
