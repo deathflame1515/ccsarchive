@@ -2,16 +2,21 @@
 # SCRIPT TO AUTOMATE SERVER SETUP
 
 #init packages
-sudo yum install httpd -y
-sudo yum install mysql-server -y 
+#sudo yum install httpd -y
+sudo yum install mariadb-server mariadb -y
 sudo yum install php-mysql php-ftp php -y
 yum groupinstall "Development tools" -y
-sudo yum install git -y
+yum install net-tools -y
+yum install nano -y
+#sudo yum install git -y
 
-systemctl enable httpd.service
+
 systemctl start httpd.service
-systemctl enable mysqld.service
-systemctl start mysqld.service
+systemctl start httpd
+systemctl start mariadb.service
+systemctl start mariadb
+firewall-cmd --permanent --add-service=http
+systemctl restart firewalld
 systemctl restart network
 systemctl restart httpd
-mysql -u root -p < dblibrary.sql
+mysql -u root < dblibrary.sql
