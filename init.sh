@@ -5,7 +5,7 @@
 #sudo yum install httpd -y
 sudo yum install mariadb-server mariadb -y
 sudo yum install php-mysql php-ftp php -y
-yum groupinstall "Development tools" -y
+#yum groupinstall "Development tools" -y
 yum install net-tools -y
 yum install nano -y
 #sudo yum install git -y
