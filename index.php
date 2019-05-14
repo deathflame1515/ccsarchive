@@ -60,7 +60,7 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </html>
 <!--       _
-       .__(.)< (MEOW)
+       .__(.)< (Developed by: EJ R. Mangune and Team)
         \___)   
  ~~~~~~~~~~~~~~~~~~-->
 
